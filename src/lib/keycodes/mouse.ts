@@ -52,6 +52,48 @@ export const mouseKeycodeMetadata: KeycodeMetadata[] = [
     webCodes: [],
     category: "Mouse",
   },
+  {
+    name: "Mouse\nUp",
+    tooltip: "Mouse Cursor Up",
+    keycode: Keycode.SP_MOUSE_UP,
+    webCodes: [],
+    category: "Mouse",
+  },
+  {
+    name: "Mouse\nDown",
+    tooltip: "Mouse Cursor Down",
+    keycode: Keycode.SP_MOUSE_DOWN,
+    webCodes: [],
+    category: "Mouse",
+  },
+  {
+    name: "Mouse\nLeft",
+    tooltip: "Mouse Cursor Left",
+    keycode: Keycode.SP_MOUSE_LEFT,
+    webCodes: [],
+    category: "Mouse",
+  },
+  {
+    name: "Mouse\nRight",
+    tooltip: "Mouse Cursor Right",
+    keycode: Keycode.SP_MOUSE_RIGHT,
+    webCodes: [],
+    category: "Mouse",
+  },
+  {
+    name: "Wheel\nUp",
+    tooltip: "Mouse Wheel Up",
+    keycode: Keycode.SP_MOUSE_WHEEL_UP,
+    webCodes: [],
+    category: "Mouse",
+  },
+  {
+    name: "Wheel\nDown",
+    tooltip: "Mouse Wheel Down",
+    keycode: Keycode.SP_MOUSE_WHEEL_DOWN,
+    webCodes: [],
+    category: "Mouse",
+  },
 ]
 
 export const mouseKeycodes = [
@@ -60,4 +102,10 @@ export const mouseKeycodes = [
   Keycode.SP_MOUSE_BUTTON_3,
   Keycode.SP_MOUSE_BUTTON_4,
   Keycode.SP_MOUSE_BUTTON_5,
+  Keycode.SP_MOUSE_UP,
+  Keycode.SP_MOUSE_DOWN,
+  Keycode.SP_MOUSE_LEFT,
+  Keycode.SP_MOUSE_RIGHT,
+  Keycode.SP_MOUSE_WHEEL_UP,
+  Keycode.SP_MOUSE_WHEEL_DOWN,
 ]
